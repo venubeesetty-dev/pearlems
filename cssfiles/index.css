@@ -1,21 +1,10 @@
 
 .container {
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     align-items: flex-start;
     gap: 20px;
     padding: 20px;
-}
-
-.fixed-column {
-    background-color: lightblue;
-    position: sticky;
-    top: 200px;
-    width: 500px;
-    padding: 50px;
-    text-align: justify;
-    color: darkblue;
-    border-radius: 10px;
 }
 
 .scroll-column {
