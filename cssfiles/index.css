@@ -1,0 +1,47 @@
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.fixed-column {
+    background-color: lightblue;
+    position: sticky;
+    top: 200px;
+    width: 500px;
+    padding: 50px;
+    text-align: justify;
+    color: darkblue;
+    border-radius: 10px;
+}
+
+.scroll-column {
+    flex: 1;
+}
+
+.list-options {
+    background-color: lightblue;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-layout {
+    display: grid;
+    grid-template-columns: 100px 500px;
+    padding-top: 40px;
+    padding-left: 10px;
+    border-color: rgb(0, 35, 100);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.btn-icons {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
