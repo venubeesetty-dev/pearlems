@@ -29,10 +29,25 @@ body {
 
 .title-name {
     color: darkgreen;
-    font-size: 110px;
+    font-size: 50px;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.sub-title {
+    margin-top: 175px;
+    color: darkblue;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.portal-info {
+    color: darkblue;
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: center;
+
+}
