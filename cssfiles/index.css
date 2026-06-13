@@ -1,7 +1,8 @@
 
 .container {
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
+    flex: 1;
     align-items: flex-start;
     gap: 20px;
     padding: 20px;
@@ -11,12 +12,27 @@
     flex: 1;
 }
 
+.sub-title {
+    margin-top: 200px;
+    color: darkblue;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.portal-info {
+    color: darkblue;
+    margin-top: 0px;
+    font-size: 25px;
+    text-align: center;
+}
+
 .list-options {
     background-color: lightblue;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .btn-layout {
@@ -35,11 +51,7 @@
     width: 80px;
     height: 80px;
     border-radius: 15px;
-}
-
-.module-txt {
-    margin-top: 20px;
-    font-size: 35px;
+    cursor: pointer;
 }
 
 .module-btn {
@@ -48,8 +60,17 @@
     border-radius: 15px;
     background-color: lightblue;
     font-size: 30px;
-    font-weight: bold;
     border-color: grey;
     border-style: solid;
     color: rgb(0, 35, 100);
 }
+
+.btn-text {
+    border-radius: 15px;
+    border-color: grey;
+    border-style: solid;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
