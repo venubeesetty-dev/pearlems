@@ -16,6 +16,7 @@
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
+    font-size: 30px;
 }
 
 .btn-layout {
@@ -36,7 +37,14 @@
     border-radius: 15px;
 }
 
-.module-txt {
-    margin-top: 20px;
-    font-size: 35px;
+.module-btn {
+    width: 350px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+    border-color: grey;
+    border-style: solid;
+    color: rgb(0, 35, 100);
 }
