@@ -4,8 +4,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .title {
     display: grid;
@@ -28,6 +29,7 @@ body {
 
 .title-name {
     color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     font-weight: bold;
     display: flex;
@@ -35,18 +37,5 @@ body {
     justify-content: center;
 }
 
-.sub-title {
-    margin-top: 200px;
-    color: darkblue;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-}
 
-.portal-info {
-    color: darkblue;
-    margin-top: 0px;
-    font-size: 30px;
-    text-align: center;
-}
 
