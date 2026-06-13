@@ -37,6 +37,11 @@
     border-radius: 15px;
 }
 
+.module-txt {
+    margin-top: 20px;
+    font-size: 35px;
+}
+
 .module-btn {
     width: 350px;
     height: 80px;
