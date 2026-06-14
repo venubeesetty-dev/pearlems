@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PEMS - Student Data</title>
+        <link rel="stylesheet" href="cssfiles/general.css">
+        <link rel="stylesheet" href="cssfiles/student.css">
+    </head>
+
+    <body>
+        <div class="title">
+            <div>
+                <img class="school-logo" src="thumbnails/school-logo.png">
+            </div>
+            <div class="title-name">Pearl English Medium School</div>
+        </div>
+        <div class="sub-title">
+            <p>Admission Entries</p>
+        </div>
+        <div class="portal-info">
+            <p>Enter Student details into the system.</p>
+        </div>
+
+        <div class="container">
+            <div class="scroll-column">
+                <div class="list-options">
+                    <div style="display: block;">
+                        <label for="html">Select Class</label>
+                        <select style="
+                                width: 150px;
+                                height: 35px;
+                                font-size: 25px;
+                                ">
+                            <option value="NUR">Nursery</option>
+                            <option value="LKG">LKG</option>
+                            <option value="UKG">UKG</option>
+                            <option value="001">Class 1</option>
+                            <option value="002">Class 2</option>
+                            <option value="003">Class 3</option>
+                            <option value="004">Class 4</option>
+                            <option value="005">Class 5</option>
+                            <option value="006">Class 6</option>
+                            <option value="007">Class 7</option>
+                            <option value="008">Class 8</option>
+                            <option value="009">Class 9</option>
+                            <option value="010">Class 10</option>
+                        </select>
+                    </div>
+                    <input class="input-txt" type="text" placeholder="First Name"><br>
+                    <input class="input-txt" type="text" placeholder="Last Name"><br>
+                    <input class="input-txt" type="text" placeholder="Aadhar No."><br>
+                    <input class="input-txt" type="text" placeholder="Father's Name"><br>
+                    <input class="input-txt" type="text" placeholder="Mother's Name"><br>
+                    <input class="input-txt" type="text" placeholder="Address"><br>
+                    <input class="input-txt" type="text" placeholder="Contact No."><br>
+                    <button class="submit-btn"
+                        onclick="
+                            alert('Student Details update successful!'); 
+                            window.location.href='admin.html';  
+                        ">Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
